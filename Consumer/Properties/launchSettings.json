@@ -4,7 +4,7 @@
       "commandName": "Project",
       "environmentVariables": {
         "DOTNET_ENVIRONMENT": "Development",
-        "SENDGRID_API_KEY": "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"
+        "SENDGRID_API_KEY": ""
       },
       "dotnetRunMessages": true
     },
