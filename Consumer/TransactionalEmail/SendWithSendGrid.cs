@@ -6,8 +6,8 @@ namespace Consumer.TransactionalEmail
 {
     public class SendWithSendGrid
     {
-        private const string FromEmailAddress = "Andriy.Ratushniak@fivesysdev.com";
-        private const string FromName = "Andrew Ratushnyak";
+        private const string FromEmailAddress = "";
+        private const string FromName = "";
         public static async Task SendMessage(Message message)
         {
             var apiKey = Environment.GetEnvironmentVariable("SENDGRID_API_KEY");
